@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* TextStyle */
+a, p, .contacts>li, div{
+    color:#838587; 
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h2,h4, b{
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+h3{
+    color: #34abf0;
+    font-family: 'Oswald', sans-serif;
+}
+
+hr{
+    margin: 25px 0px 25px 0;
+}
+
+
+/* structure */
+body{
+    background-color:    #191919;
+}
+
+.container1{
+    position: fixed; top: 0px; width: 38%; height: 100%;
+}
+
+.socialMediaCont{
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.socialMediaCont>img{
+    width: 40px;
+    height: 40px;
+    
+
+}
+
+.backgroundPhoto{
+    height: 100%;
+    background-image: url(/kaedmPortfolioWebsite/img/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+.container2{
+    margin-left: 38%;
+    margin-top: 65px;
+  
+}
+
+/* navigation */
+.navbar{
+    position: fixed; top: 0px; width: 62%;
+    display: flex;
+    justify-content: center;
+    background-color:    #191919;
+}
+
+.navul{
+    display: flex;
+   
+}
+
+.navul>li{
+    padding: 25px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.menuIcon{
+    overflow: hidden;
+    height: 0px;
+    
+}
+
+.highlight{
+    color: #34abf0;
+}
+
+a:hover{
+    color: #34abf0;
+}
+
+
+/* index */
+.mycontent{
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.info{
+    display: grid;
+    grid-template-columns:  45% 55%;  
+}
+
+.info>div{
+    color:#838587;
+}
+
+.intro{
+    margin-top: 20px;
+}
+
+.skillInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.skillInfo>div{
+    color: #838587;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.skillInfo>div>h3{
+    color: #ffffff;
+}
+
+/* resume */
+.rContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.rContainer>div{
+    margin-top: 20px;
+}
+
+/* portfolio */
+.projects{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.projects>div{
+    background-color: #34abf0;
+    height: 280px;
+}
+
+/* codingchallenge */
+
+.challengeContainer{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.challengeContainer>div{
+    height: 45px;
+    background-color: #34abf0;
+}
+
+/* contact */
+
+.contacts>li{
+    margin-top: 20px;
+
+}
+
+
+/* responsive */
+@media screen and (max-width:990px){
+
+.navbar{
+    margin: 0px;
+    width: 100%;
+}
+
+
+.mainContainer{
+    position: static;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.container1{
+    position: static;
+    width: 100%;
+    height: 100%;
+}
+
+.socialMediaCont{
+    top: 480px;
+}
+
+.backgroundPhoto{
+    height:550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.container2{
+    position: static;
+    margin: 0;
+    width: 100%;
+
+}
+
+}
+
+
+@media screen and (max-width:770px){
+
+.navbar{
+    height: 60px;
+    width: 100%;
+}
+
+ .navul{
+    overflow: hidden;
+    height: 0;
+    width: 0;
+}        
+
+.templateCollumn{
+    grid-template-columns: 1fr;
+}
+
+.navbar{
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.format>li{
+    background-color: #191919;
+    padding: 20px;
+} 
+
+.format{
+    background-color: #191919;
+    margin-top:60px;
+}
+
+.menuIcon{
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    margin-left: 2%;
+    margin-top: 20px;
+    color: #838587;
+    top: 0px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
