@@ -35,7 +35,15 @@ body{
 }
 
 .container1{
-  position: fixed; top: 0px; width: 38%; height: 100%;
+   top: 0px; 
+   width: 30%; 
+   height: 100%;
+   background-color: #34abf0;
+}
+
+.container2{
+  margin-left: 30%;
+  margin-top: 65px;
 }
 
 .socialMediaCont{
@@ -48,24 +56,8 @@ body{
 .socialMediaCont>img{
   width: 40px;
   height: 40px;
-  
-
 }
 
-.backgroundPhoto{
-  height: 100%;
-  background-image: url(/kaedmPortfolioWebsite/img/profile.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-
-.container2{
-  margin-left: 38%;
-  margin-top: 65px;
-
-}
 
 /* navigation */
 .navbar{
@@ -77,7 +69,7 @@ body{
 
 .navul{
   display: flex;
- 
+
 }
 
 .navul>li{
@@ -92,7 +84,7 @@ body{
   
 }
 
-.highlight{
+.navtext:hover{
   color: #34abf0;
 }
 
@@ -105,7 +97,7 @@ a:hover{
 .mycontent{
   margin-left: 8.5%;
   margin-right: 8.5%;
-  padding-top: 25px;
+  padding-top: 0rem;
   padding-bottom: 25px;
   
 }
@@ -214,6 +206,7 @@ a:hover{
   height:550px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #34abf0;
  
 }
 
