@@ -71,7 +71,12 @@ const AboutMe = () => {
 const KaedHome = () => {
   return (
     <section className='maincontainer'>
-       
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h1>About me</h1>
         <AboutMe/>
         <Services/>
     </section>
