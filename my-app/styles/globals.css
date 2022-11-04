@@ -7,9 +7,22 @@
 
 
 /* TextStyle */
+.textintro{
+  font-size: 2rem;
+}
+
+.introname{
+  font-size: 2rem;
+  color: #34abf0;
+}
+
 a, p, .contacts>li, div{
   color:#838587; 
   font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  color: #34abf0; 
 }
 
 
@@ -32,70 +45,67 @@ hr{
 /* structure */
 body{
   background-color:    #191919;
-}
-/* 
-.container1{
- 
-   width: 20%; 
-   height: 100%;
-   background-color: #04090c;
-} */
-
-.backgroundPhoto{
-  width: 100%; 
   height: 100%;
 }
+ 
 
-.mycontentintroduction{
+.backgroundPhoto{
+  width: 25rem; 
+  height: 25rem;
+  background-size: cover;
+}
+
+.mycontentintroduction{ 
+  margin-left: 8.5%;
+}
+
+.introcontainer{ 
+  margin: 0px 8.5% 0px 8.5%;
   display: flex;
   align-items: center;
-  margin-left: 8.5%;
+  height: 28rem;
+  /* background: rgb(18, 99, 102); */
 }
 
-.container2{
-  display: grid;
-  grid-template-columns: 30% 50%;
-  margin-left: 8.5%;
-  margin-top: 95px;
+.aboutmecontainer{
+  height: 25rem;
+  margin: 3rem 8.5% 3rem 8.5%; 
 }
 
-.socialMediaCont{
-  display: flex;
-  position: absolute;
-  bottom: 5%;
-  left: 5%;
+.homecontainer{
+  margin-top: 5rem; 
 }
 
-.socialMediaCont>img{
-  width: 40px;
-  height: 40px;
-}
 
 
 /* navigation */
 .navbar{
+  z-index: 99;
   position: fixed; top: 0px; width: 100%;
   display: flex;
   justify-content: center;
-  background-color:    #000000;
+  background-color: #000000;
   border-bottom:white;
   border-width: 20px;
 }
 
 .navul{
   display: flex;
+  align-items: center;
 
 } 
 
 .navul>li{
-  padding: 25px;
+  padding: 10px 20px 10px 20px;
   font-family: 'Oswald', sans-serif;
+  font-size: 20px;
 
 }
 
 .navlogo{
-  width: 50px;
-  height: 50px;
+  padding: 20px;
+  width: 40px;
+  height: 40px;
 }
 
 .menuIcon{
@@ -136,11 +146,9 @@ a:hover{
 }
 
 .skillInfo{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  display: flex;
 }
+
 .skillInfo>div{
   color: #838587;
   padding: 20px;
@@ -288,6 +296,51 @@ a:hover{
 
 
 
+.hexagon{
+  height: 8rem;
+  width: 8rem;
+  /* background-color: #f25d5d; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillicon{
+  position:absolute;
+  z-index: 10;
+}
+
+.diva{ 
+  z-index: 2;
+  position: absolute;
+  height: 128px;
+  width: 70px;
+  background-color: #ffffff;
+}
+
+.divb{ 
+  z-index: 3;
+  position: absolute;
+  height: 125px;
+  width: 73px;
+  background-color: #ffffff;
+  transform: rotate(-60deg);
+}
+
+.divc{ 
+  z-index: 4;
+  position: absolute;
+  height: 125px;
+  width: 73px;
+  background-color: #ffffff;;
+  transform: rotate(60deg);
+}
+
+.icondesc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 
