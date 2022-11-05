@@ -8,11 +8,11 @@
 
 /* TextStyle */
 .textintro{
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .introname{
-  font-size: 2rem;
+  font-size: 1rem;
   color: #34abf0;
 }
 
@@ -51,29 +51,30 @@ body{
 
 .backgroundPhoto{
   width: 25rem; 
-  height: 25rem;
+  height: 21rem;
   background-size: cover;
 }
 
 .mycontentintroduction{ 
-  margin-left: 8.5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .introcontainer{ 
-  margin: 0px 8.5% 0px 8.5%;
+  margin: 0px 10% 0px 10%;
   display: flex;
   align-items: center;
-  height: 28rem;
+  height: 25rem;
   /* background: rgb(18, 99, 102); */
 }
 
 .aboutmecontainer{
   height: 25rem;
-  margin: 3rem 8.5% 3rem 8.5%; 
+  margin: 1rem 10% 1rem 10%; 
 }
 
 .homecontainer{
-  margin-top: 5rem; 
+  margin-top: 4rem; 
 }
 
 
@@ -125,8 +126,8 @@ a:hover{
 
 /* index */
 .mycontent{
-  margin-left: 8.5%;
-  margin-right: 8.5%;
+  margin-left: 10%;
+  margin-right: 10%;
   padding-top: 0rem;
   padding-bottom: 25px;
   
@@ -146,7 +147,8 @@ a:hover{
 }
 
 .skillInfo{
-  display: flex;
+  display: grid;
+  /* grid-template-columns: 25% 25% 25%; */
 }
 
 .skillInfo>div{
@@ -231,7 +233,8 @@ a:hover{
 }
 
 .backgroundPhoto{
-  height:550px;
+  height:20px;
+  /* width: 380px; */
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #34abf0;
@@ -297,6 +300,7 @@ a:hover{
 
 
 .hexagon{
+  margin-left: 30%;
   height: 8rem;
   width: 8rem;
   /* background-color: #f25d5d; */
@@ -337,10 +341,36 @@ a:hover{
 }
 
 .icondesc{
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
+
+
+/* Projects css ========================================= */
+
+.projectsection{
+  margin: 0% 10% 10% 10%;
+}
+
+.projectitemcontainer{
+  height: 16rem;
+  width: 25rem;
+  background-color: #838587;
+  border-radius: 10px;
+}
+
+.projectscontainers{
+  margin: 3% 0 0 0 ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-gap: 20px;
+
+}
+
 
 
 

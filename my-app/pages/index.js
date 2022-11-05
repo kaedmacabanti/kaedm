@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import Navigation from '../components/navigation'
 import KaedHome from '../components/home'
 import Resume from '../components/resume'
-
+import Projects from '../components/projects'
 
 export default function Home() {
   return (
@@ -18,7 +18,8 @@ export default function Home() {
       </Head> 
       <Navigation/>
       <KaedHome/>
-      <Resume/>
+      {/* <Resume/> */}
+      <Projects/>
 
       
   

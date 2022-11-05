@@ -6,49 +6,40 @@ import uiux from '../public/img/uiux.png'
 import seo from '../public/img/seo.png'
 
 
+
+const Skill = (props) => {
+  return (
+    <div className='icondesc'>                 
+      <span>  <h3>{props.skillname} </h3> {props.skilldesc} </span>
+      <span>  <h3>{props.tools} </h3> {props.toolname} </span>
+      <span className='hexagon'>
+        <div className='diva'></div>
+        <div className='divb'></div>
+        <div className='divc'></div>
+        <Image src={props.img} alt='/' className='skillicon' /> 
+      </span>   
+  </div>
+  )
+}
+
+
+
 const Services = () => {
+  const skill1 = {
+    img: wd, name: "Front-end Development", desc:"I like to code things from scratch, and enjoy bringing ideas to life in the browser.", tools:"I Can Work With", toolname: "HTML, CSS, JS, React, Next, Node, Bootstrap, Tailwind"
+  }
+  const skill2 = {
+    img: uiux, name: "UI and UX Design", desc:"I value simple content structure, clean design patterns, and thoughtful interactions.", tools:"Design Tools I Use", toolname: "Balsamiq, Figma, Photoshop"
+  }
+
+
+
   return (
     <div className='aboutmecontainer'>
-      <hr></hr>
-        
- 
             <div class="skillInfo templateCollumn">
-                    <div className='icondesc'>                 
-                      <section className='hexagon'>
-                        <div className='diva'></div>
-                        <div className='divb'></div>
-                        <div className='divc'></div>
-                        <Image src={wd} alt='/' className='skillicon' /> 
-                      </section>   
-                      <br/>
-                        <h3>Front-end Development</h3> Can create frontend websites using
-                        HTML, CSS, Javascript. I can work with React, Next, Tailwind, 
-                        
-                    </div>
-                    <div className='icondesc'>
-                      <section className='hexagon'>
-                        <div className='diva'></div>
-                        <div className='divb'></div>
-                        <div className='divc'></div>
-                        <Image src={uiux} alt='/' className='skillicon' /> 
-                      </section> 
-                      <br/>  
-                        <h3>UI and UX Design</h3> Design web applications that will engage 
-                        users and deliver great user experience
-                    </div>
-                    <div className='icondesc'>
-                      <section className='hexagon'>
-                        <div className='diva'></div>
-                        <div className='divb'></div>
-                        <div className='divc'></div>
-                        <Image src={seo} alt='/' className='skillicon' /> 
-                      </section>
-                      <br/>   
-                        <h3>Sarch Engine Optimization</h3> Optimize website in order to 
-                        garner more users and become more visible to search engine bots
-                    </div>
-                </div>
-      
+                    <Skill img={skill1.img} skillname={skill1.name} skilldesc={skill1.desc} tools={skill1.tools} toolname={skill1.toolname}/> 
+                    <Skill img={skill2.img} skillname={skill2.name} skilldesc={skill2.desc} tools={skill2.tools} toolname={skill2.toolname}/>  
+            </div>
     </div>
   )
 }
@@ -57,19 +48,14 @@ const Services = () => {
 const AboutMe = () => {
     return(
     <section className='introcontainer'>
-
         <Image src={profile} alt='/' className='backgroundPhoto' />  
-   
         <section className='mycontentintroduction'>
-            {/* <h3>Front-End Web Developer</h3> */}
             <h1 className='textintro'>About me</h1>
             <br/>
-            <h2 className='textintro'>Hello, my name is Kyle Ash Ezequiel D. Macabanti. A front-end web developer.</h2>
+            <h2 className=''>Hello, my name is Kyle Ash Ezequiel D. Macabanti. A front-end web developer.</h2>
             <br/>
-  
         </section> 
         <hr></hr>
-       
     </section>
 
     )
