@@ -1,0 +1,34 @@
+import React from 'react'
+
+
+const ContactForm = () => {
+    return (
+      <form className='contactformcontainer'>
+        <form className='inputboxcontainer'>
+            <input type="text" name="name" placeholder='Name' className='name'/>
+            <input type="email" name="name" placeholder='Your email' className='email'/>
+            <input type="text" name="name" placeholder='Message'className='message'/>
+            <input type="submit" value="Submit" className='sbtn'/>
+        </form> 
+          
+         
+ 
+      </form>
+    )
+  }
+  
+  
+
+const Contact = () => {
+  return (
+    <div className='contactcontainer'>
+        <h1 className='textintro'>Contact me</h1>
+        {/* <h3>Have a question or message? Please send me a message</h3> */}
+        <ContactForm/>
+    </div>
+  )
+}
+
+
+
+export default Contact
