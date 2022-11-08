@@ -5,6 +5,12 @@
   list-style-type: none;
 }
 
+html{
+  background-color: #838587;
+  
+  margin-left: 15%;
+  margin-right:15%;
+}
 
 /* TextStyle */
 .textintro{
@@ -89,9 +95,7 @@ a:hover{
   background-color:    #191919;
  }
  
-.primarycontainer{
-  margin-left: 15%;
-  margin-right:15%;
+.primarycontainer{ 
 
 }
 
