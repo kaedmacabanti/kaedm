@@ -7,9 +7,9 @@ const Fproject = () => {
 
       </div>
       <div className='fprojdesc'>
-        <h4>Clone Project</h4>
+        <h2>Clone Project</h2>
         <h3>Netflix Clone</h3>
-        <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+        <p className='featureddescription'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
 
       </div>
     </div>
@@ -19,7 +19,8 @@ const Fproject = () => {
 const Featuredproj = () => {
   return (
     <section className='featuredprojcont'>
-        <h1 className='textintro'>Featured Projects</h1>
+        <h1 className='featuredtxt'>Featured</h1>
+        <hr className='featuredhr'/>
         <Fproject/>
       
     </section>

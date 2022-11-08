@@ -47,12 +47,12 @@ const AboutMe = () => {
     <section className='introcontainer'>
         <Image src={profile} alt='/' className='backgroundPhoto' />  
         <section className='mycontentintroduction'>
-            <h1 className='textintro'>About me</h1>
+            <h1 className='aboutmetxt'>About me</h1>
+            <hr className='aboutmehr'/>
             <br/>
-            <h2 className=''>Hello, my name is Kyle Ash Ezequiel D. Macabanti. front-end web developer.</h2>
+            <h2 className=''>Hello, my name is Kyle Ash Ezequiel D. Macabanti. I'm a front-end web developer.</h2>
             <br/>
-        </section> 
-        <hr></hr>
+        </section>  
     </section>
 
     )

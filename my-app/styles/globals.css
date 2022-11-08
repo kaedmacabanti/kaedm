@@ -7,39 +7,42 @@
  
 
 /* TextStyle */
-.textintro{
-  font-size: 3rem;
-}
 
-.introname{
-  font-size: 1rem;
-  color: #34abf0;
-}
-
-a, p, .contacts>li, div{
+ 
+a , .contacts>li, div{
   color:#838587; 
   font-family: 'Poppins', sans-serif;
 }
 
-h1{
+h1{ 
   color: #34abf0; 
 }
-
-
-h2,h4, b{
-  color: #ffffff;
-  font-family: 'Oswald', sans-serif;
- 
+h2{
+  color: white;
+  font-size: 1.6rem;
+  padding: 1rem 0 1rem 0;
 }
 
 h3{
   color: #34abf0;
   font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+}
+ 
+
+p{
+  color:#838587; 
+  padding: 1rem 0 1rem 0;
+  font-size: 1rem;
 }
 
-hr{
-  margin: 25px 0px 25px 0;
+
+h4, b{
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+ 
 }
+ 
 
 /*=============================== NAVIGATION ===============================*/
 .navbar{
@@ -125,6 +128,17 @@ body{
 
 
 /*=============================== ABOUTME ===============================*/
+.aboutmetxt{
+  font-size: 2.8rem;
+}
+
+.aboutmehr{
+  margin: 15px 0px 30px 0;
+  width: 13rem;
+  height: .15rem;
+  background-color: white;
+}
+
 .mycontent{
   padding: 6.25rem 0 6.25rem 0;
 }
@@ -201,7 +215,17 @@ body{
   width: 100%;
 }
 
-/*=============================== FEATURED PROJECTS =============================== */
+/*=============================== FEATURED =============================== */
+.featuredtxt{
+  font-size: 2.8rem;
+}
+
+.featuredhr{
+  margin: 15px 0px 3rem 0;
+  width: 11.6rem;
+  height: .15rem;
+  background-color: white;
+}
 
 .featuredprojcont{ 
   padding: 6.25rem 0 6.25rem 0;;
@@ -223,8 +247,22 @@ body{
   /* background-color: #6a5904; */
 }
 
+.featureddescription{
+  margin-left: 2rem
+}
+
 
 /*=============================== PROJECTS ===============================*/
+.projectstxt{
+  font-size: 2.8rem;
+}
+
+.projectshr{
+  margin: 15px 0px 3rem 0;
+  width: 11rem;
+  height: .15rem;
+  background-color: white;
+}
 
 .projectsection{
   
@@ -245,7 +283,16 @@ body{
 }
 
 /*=============================== CONTACT ===============================*/
- 
+.contacttxt{
+  font-size: 2.8rem;
+}
+
+.contacthr{
+  margin: 15px 0px 2rem 0;
+  width: 15rem;
+  height: .15rem;
+  background-color: white;
+}
 
 .contactcontainer{
   padding: 6.25rem 0 6.25rem 0;
@@ -304,6 +351,7 @@ body{
   color: black;
   font-size: medium;
   margin-left: 5rem;
+   
 }
 
 .none{
