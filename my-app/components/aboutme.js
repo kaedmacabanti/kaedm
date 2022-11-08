@@ -49,7 +49,7 @@ const AboutMe = () => {
         <section className='mycontentintroduction'>
             <h1 className='textintro'>About me</h1>
             <br/>
-            <h2 className=''>Hello, my name is Kyle Ash Ezequiel D. Macabanti. A front-end web developer.</h2>
+            <h2 className=''>Hello, my name is Kyle Ash Ezequiel D. Macabanti. front-end web developer.</h2>
             <br/>
         </section> 
         <hr></hr>
