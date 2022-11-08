@@ -4,13 +4,7 @@
   text-decoration: none;
   list-style-type: none;
 }
-
-html{
-  background-color: #838587;
-  
-  margin-left: 15%;
-  margin-right:15%;
-}
+ 
 
 /* TextStyle */
 .textintro{
@@ -91,9 +85,11 @@ a:hover{
 
 
 /*=============================== STRUCTURE ===============================*/
- .cont{
+
+
+body{
   background-color:    #191919;
- }
+}
  
 .primarycontainer{ 
 

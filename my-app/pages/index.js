@@ -12,7 +12,7 @@ import Footer from '../components/footer'
 
 export default function Home() {
   return (
-    <div className='cont'>
+    <body >
       <Head>
         <title>kaedm</title>
         <meta name="portfolio" content="Portfolio website" />
@@ -23,15 +23,15 @@ export default function Home() {
       <Image src={profile} alt='/' className='none' /> 
       <Navigation/>
 
-      <body className='primarycontainer'>
+      <div className='primarycontainer'>
         <KaedHome/> 
         <Featuredproj/>
         <Projects/>
         <Contact/> 
-      </body>
+      </div>
 
       <Footer/>
 
-    </div>
+    </body>
   )
 }
