@@ -116,18 +116,12 @@ body{
   height: 25rem;
   /* background: rgb(18, 99, 102); */
 }
-
-.aboutmecontainer{
-  height: 25rem; 
-}
-
 .homecontainer{
-  margin-top: 4rem; 
+  padding: 6.25rem 0 6.25rem 0;
 }
-
-
 
 /*=============================== ABOUTME ===============================*/
+ 
 .aboutmetxt{
   font-size: 2.8rem;
 }
@@ -234,22 +228,29 @@ body{
 .fproject{
   display: grid;
   grid-template-columns: 55% 45% ;
+  margin-top: 2rem;
 }
 
 .fprojimg{
   height: 20rem;
-  background-color: aliceblue;
+  background-color: #fff;
+  border-radius: 9px;
 }
 
 .fprojdesc{ 
-  text-align: end; 
+  padding: 0 2rem 0 2rem;
   width: 100%;
   /* background-color: #6a5904; */
 }
 
-.featureddescription{
-  margin-left: 2rem
+.fprojdesc ul {
+  display: flex; 
 }
+ 
+.fprojdesc ul li {
+  margin-right: 2rem;
+}
+ 
 
 
 /*=============================== PROJECTS ===============================*/
@@ -261,7 +262,7 @@ body{
   margin: 15px 0px 3rem 0;
   width: 11rem;
   height: .15rem;
-  background-color: white;
+  background-color: #fff;
 }
 
 .projectsection{
@@ -271,7 +272,7 @@ body{
 
 .projectitemcontainer{
   height: 16rem; 
-  background-color: #838587;
+  background-color: #fff;
   border-radius: 8px;
 }
 
@@ -365,11 +366,15 @@ body{
   background-color: #000000;
 }
 
-/*=============================== FOOTER ===============================*/
+/*=============================== MOBILE ===============================*/
+@media screen and (max-width:770px){
+
+}
+
+
+/*=============================== TABLET ===============================*/
 @media screen and (max-width:990px){
 
 }
 
-@media screen and (max-width:770px){
-
-}
+ 
