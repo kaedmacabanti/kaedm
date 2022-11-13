@@ -82,9 +82,7 @@ h4, b{
   color: #34abf0;
 }
 
-a:hover{
-  color: #34abf0;
-}
+ 
 
 
 /*=============================== STRUCTURE ===============================*/
@@ -106,17 +104,16 @@ body{
   background-size: cover;
 }
 
-.mycontentintroduction{  
+.introtextcont{  
   padding: 0 5% 0 5%;
 }
 
 .introcontainer{  
   display: flex;
-  align-items: center;
-  height: 25rem;
-  /* background: rgb(18, 99, 102); */
+  align-items: center; 
 }
-.homecontainer{
+
+.sectioncontainer{
   padding: 6.25rem 0 6.25rem 0;
 }
 
@@ -145,21 +142,11 @@ body{
   margin-top: 20px;
 }
 
-.skillInfo{
-  display: grid; 
-}
-
-.skillInfo>div{
-  color: #838587;
+.skillInfo>div{ 
   padding: 20px;
   text-align: center;
-
 }
-
-.skillInfo>div>h3{
-  color: #ffffff;
-}
-
+ 
 .hexagon{
   margin-left: 30%;
   height: 8rem;
@@ -174,33 +161,31 @@ body{
   z-index: 10;
 }
 
-.diva{ 
-  z-index: 2;
+.diva, .divb , .divc{ 
   position: absolute;
   height: 128px;
   width: 70px;
   background-color: #ffffff;
 }
 
+.diva{ 
+  height: 128px;
+  width: 70px;
+}
+
 .divb{ 
-  z-index: 3;
-  position: absolute;
   height: 125px;
   width: 73px;
-  background-color: #ffffff;
   transform: rotate(-60deg);
 }
 
 .divc{ 
-  z-index: 4;
-  position: absolute;
   height: 125px;
   width: 73px;
-  background-color: #ffffff;;
   transform: rotate(60deg);
 }
 
-.icondesc{
+.skill{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 3rem;
@@ -221,9 +206,7 @@ body{
   background-color: white;
 }
 
-.featuredprojcont{ 
-  padding: 6.25rem 0 6.25rem 0;;
-}
+ 
 
 .fproject{
   display: grid;
@@ -265,11 +248,6 @@ body{
   background-color: #fff;
 }
 
-.projectsection{
-  
-  padding: 6.25rem 0 6.25rem 0;
-}
-
 .projectitemcontainer{
   height: 16rem; 
   background-color: #fff;
@@ -295,10 +273,8 @@ body{
   background-color: white;
 }
 
-.contactcontainer{
-  padding: 6.25rem 0 6.25rem 0;
-  width: 100%; 
-  /* background-color: #03803d; */
+.contactcontainer{ 
+  width: 100%;  
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -306,9 +282,7 @@ body{
 
 .contactformcontainer{
   height: 20rem;
-  margin: 0% 10% 0% 10%;
-  /* background-color: #838587; */
-
+  margin: 0% 10% 0% 10%; 
   display: flex;
   flex-direction:column;
   justify-content: center;
@@ -343,8 +317,7 @@ body{
   border-radius: 5px;
   background-color: #34abf0;
   font-size: medium;
-  color: black;
-  /* border-color: #000000; */
+  color: black; 
   
 }
 
@@ -374,6 +347,56 @@ body{
 
 /*=============================== TABLET ===============================*/
 @media screen and (max-width:990px){
+  .introcontainertab{ 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .introtextcont{  
+    padding: 0 5% 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+  .introtexttab{
+    text-align: center;
+  }
+
+  .skillinfotab{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .skill{
+    display: flex; 
+    flex-direction: column-reverse;
+  } 
+  .skill span{
+    padding: 1rem;
+  }
+  .hexagon{
+    margin: 0;
+  }
+  
+
+
+
+  .fprojtab{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .fprojdesc{
+    padding: 0;
+  }
+
+  .projectscontainers{
+    margin: 3% 0 0 0 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+  }
+ 
+
 
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
  
 const Fproject = (props) => {
   return (
-    <div className='fproject'>
+    <div className='fproject fprojtab'>
       <div className='fprojimg'>
       </div>
       <div className='fprojdesc'>
@@ -27,8 +27,9 @@ const Featuredproj = () => {
   const featuredproject2 = {
     type:"Case Study",name:"SparkLauch", description:"Website where creators and founders can showcase their projects in order to receive funding from patreons and potential investors. This allows creatives to launch their dream projects to reality", tech1: "React", tech2:"Next", tech3:"Tailwind", tech4:"TMDB"
   }
+
   return (
-    <section className='featuredprojcont'>
+    <section className='sectioncontainer'>
         <h1 className='featuredtxt'>Featured</h1>
         <hr className='featuredhr'/>
         <Fproject projecType={featuredproject1.type} prjectName={featuredproject1.name} projectDescription={featuredproject1.description} tech1={featuredproject1.tech1} tech2={featuredproject1.tech2} tech3={featuredproject1.tech3} tech4={featuredproject1.tech4}/>

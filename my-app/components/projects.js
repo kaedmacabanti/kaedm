@@ -12,7 +12,7 @@ const ProjectItem = () => {
 
 const Projects = () => {
   return (
-    <section className='projectsection'>
+    <section className='sectioncontainer'>
         <h1 className='projectstxt'>Projects</h1>
         <hr className='projectshr'/>
         <div className='projectscontainers'>

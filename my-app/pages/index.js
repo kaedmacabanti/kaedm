@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import profile from '../public/img/profile.png'
 
 import Navigation from '../components/navigation'
-import KaedHome from '../components/aboutme' 
+import Aboutme from '../components/aboutme' 
 import Projects from '../components/projects'
 import Contact from '../components/contact'
 import Featuredproj from '../components/featuredproj'
@@ -15,8 +15,7 @@ export default function Home() {
     <body >
       <Head>
         <title>kaedm</title>
-        <meta name="portfolio" content="Portfolio website" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <meta name="portfolio" content="Portfolio website" /> 
         <link rel="icon" href="/250x250.ico" />
       </Head> 
 
@@ -24,7 +23,7 @@ export default function Home() {
       <Navigation/>
 
       <div className='primarycontainer'>
-        <KaedHome/> 
+        <Aboutme/> 
         <Featuredproj/>
         <Projects/>
         <Contact/> 

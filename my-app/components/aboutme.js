@@ -3,13 +3,10 @@ import Image from 'next/image'
 import profile from '../public/img/profile.png'
 import wd from '../public/img/wd.png'
 import uiux from '../public/img/uiux.png'
-import seo from '../public/img/seo.png'
-
-
 
 const Skill = (props) => {
   return (
-    <div className='icondesc'>                 
+    <div className='skill'>                 
       <span>  <h3>{props.skillname} </h3> {props.skilldesc} </span>
       <span>  <h3>{props.tools} </h3> {props.toolname} </span>
       <span className='hexagon'>
@@ -22,18 +19,16 @@ const Skill = (props) => {
   )
 }
 
-
-
-const Services = () => {
+const Skillcontainer = () => {
   const skill1 = {
-    img: wd, name: "Front-end Development", desc:"I like to code things from scratch, and enjoy bringing ideas to life in the browser.", tools:"I Can Work With", toolname: "HTML, CSS, Javascript, React, Next, Node, Bootstrap, Tailwind"
+    img: wd, name: "Front-end Dev", desc:"I like to code things from scratch, and enjoy bringing ideas to life in the browser.", tools:"I Can Work With", toolname: "HTML, CSS, Javascript, React, Next, Node, Bootstrap, Tailwind"
   }
   const skill2 = {
-    img: uiux, name: "UI and UX Design", desc:"I value simple content structure, clean design patterns, and thoughtful interactions.", tools:"Design Tools I Use", toolname: "Balsamiq, Figma, Photoshop"
+    img: uiux, name: "User Interface Design", desc:"I value simple content structure, clean design patterns, and thoughtful interactions.", tools:"Design Tools I Use", toolname: "Pen and paper, Balsamiq, Figma, Photoshop"
   }
   return (
-    <div className='aboutmecontainer'>
-            <div class="skillInfo  ">
+    <div className=''>
+            <div class="skillInfo skillinfotab">
                     <Skill img={skill1.img} skillname={skill1.name} skilldesc={skill1.desc} tools={skill1.tools} toolname={skill1.toolname}/> 
                     <Skill img={skill2.img} skillname={skill2.name} skilldesc={skill2.desc} tools={skill2.tools} toolname={skill2.toolname}/>  
             </div>
@@ -41,16 +36,15 @@ const Services = () => {
   )
 }
 
-
-const AboutMe = () => {
+const Introduction = () => {
     return(
-    <section className='introcontainer'>
+    <section className='introcontainer introcontainertab'>
         <Image src={profile} alt='/' className='backgroundPhoto' />  
-        <section className='mycontentintroduction'>
-            <h1 className='aboutmetxt'>About me</h1>
-            <hr className='aboutmehr'/>
+        <section className='introtextcont'>
+            <h1 className='aboutmetxt  '>About me</h1>
+            <hr className='aboutmehr  '/>
             <br/>
-            <h2 className=''>Hello, my name is Kyle Ash Ezequiel D. Macabanti. I'm a front-end web developer.</h2>
+            <h2 className='introtexttab'>Hello, my name is Kyle Ash Ezequiel D. Macabanti. I'm a front-end web developer based in Pampanga.</h2>
             <br/>
         </section>  
     </section>
@@ -58,13 +52,13 @@ const AboutMe = () => {
     )
 }
 
-const KaedHome = () => {
+const Aboutme = () => {
   return (
-    <section className='homecontainer'>
-        <AboutMe/> 
-        <Services/>
+    <section className='sectioncontainer'>
+        <Introduction/> 
+        <Skillcontainer/>
     </section>
   )
 }
 
-export default KaedHome
+export default Aboutme
