@@ -15,32 +15,31 @@ a , .contacts>li, div{
 }
 
 h1{ 
+  font-size: 42px;
   color: #34abf0; 
 }
 h2{
   color: white;
-  font-size: 1.6rem;
   padding: 1rem 0 1rem 0;
 }
 
 h3{
   color: #34abf0;
   font-family: 'Oswald', sans-serif;
-  font-size: 1.3rem;
+   
 }
  
 
 p{
   color:#838587; 
   padding: 1rem 0 1rem 0;
-  font-size: 1rem;
+ 
 }
 
 
 h4, b{
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
- 
 }
  
 
@@ -50,20 +49,22 @@ h4, b{
   position: fixed; top: 0px; width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #000000; 
+  background-color: #000000;  
 }
 
 .navul{
   display: flex;
   align-items: center;
-
+  height: 80px;
 } 
 
-.navul>li{
-  padding: 10px 20px 10px 20px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
 
+.navul li{
+  margin: 10px 20px 10px 20px;
+}
+
+.navbar ul li a{
+  font-size: 25px;
 }
 
 .navlogo{
@@ -72,11 +73,7 @@ h4, b{
   height: 40px;
 }
 
-.menuIcon{
-  overflow: hidden;
-  height: 0px;
-  
-}
+ 
 
 .navtext:hover{
   color: #34abf0;
@@ -86,7 +83,7 @@ h4, b{
 
 
 /*=============================== STRUCTURE ===============================*/
-
+ 
 
 body{
   background-color:    #191919;
@@ -119,10 +116,6 @@ body{
 
 /*=============================== ABOUTME ===============================*/
  
-.aboutmetxt{
-  font-size: 2.8rem;
-}
-
 .aboutmehr{
   margin: 15px 0px 30px 0;
   width: 13rem;
@@ -138,10 +131,7 @@ body{
   color:#838587;
 }
 
-.intro{
-  margin-top: 20px;
-}
-
+ 
 .skillInfo>div{ 
   padding: 20px;
   text-align: center;
@@ -188,16 +178,14 @@ body{
 .skill{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3rem;
+   
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
 
 /*=============================== FEATURED =============================== */
-.featuredtxt{
-  font-size: 2.8rem;
-}
+ 
 
 .featuredhr{
   margin: 15px 0px 3rem 0;
@@ -237,10 +225,7 @@ body{
 
 
 /*=============================== PROJECTS ===============================*/
-.projectstxt{
-  font-size: 2.8rem;
-}
-
+ 
 .projectshr{
   margin: 15px 0px 3rem 0;
   width: 11rem;
@@ -262,10 +247,7 @@ body{
 }
 
 /*=============================== CONTACT ===============================*/
-.contacttxt{
-  font-size: 2.8rem;
-}
-
+ 
 .contacthr{
   margin: 15px 0px 2rem 0;
   width: 15rem;
@@ -325,6 +307,9 @@ body{
   color: black;
   font-size: medium;
   margin-left: 5rem;
+  position: absolute;
+  top: 12px;
+  left: -60px;
    
 }
 
@@ -338,18 +323,13 @@ body{
   height: 10rem;
   background-color: #000000;
 }
-
-/*=============================== MOBILE ===============================*/
-@media screen and (max-width:770px){
-
-}
-
-
+ 
 /*=============================== TABLET ===============================*/
 @media screen and (max-width:990px){
   .introcontainertab{ 
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .introtextcont{  
@@ -371,18 +351,16 @@ body{
     flex-direction: column-reverse;
   } 
   .skill span{
-    padding: 1rem;
+    padding: 2rem;
   }
   .hexagon{
     margin: 0;
   }
   
-
-
-
   .fprojtab{
     display: grid;
     grid-template-columns: 100%;
+ 
   }
 
   .fprojdesc{
@@ -395,7 +373,43 @@ body{
     grid-template-columns: 1fr 1fr; 
     grid-gap: 20px;
   }
+
+  .footer{
+    height: 10rem;
+    background-color: #000000;
+  }
+
+}
+
+
+/*=============================== MOBILE ===============================*/
+@media screen and (max-width:770px){ 
  
+  
+  .backgroundPhoto{
+    width: 23rem; 
+    height: 19rem;
+    background-size: cover;
+  }
+  .fprojimg{
+    height: 10rem;
+    background-color: #fff;
+    border-radius: 9px;
+  }
+
+  .projectscontainers{
+    margin: 3% 0 0 0 ; 
+    grid-template-columns:   1fr; 
+    grid-gap: 20px;
+  }
+  .projectscontainers div{
+    height: 10rem;
+  }
+
+  .footer{
+    height: 8rem;
+    background-color: #000000;
+  }
 
 
 }

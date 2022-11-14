@@ -5,6 +5,7 @@ import profile from '../public/img/profile.png'
 
 import Navigation from '../components/navigation'
 import Aboutme from '../components/aboutme' 
+import Skillcontainer from '../components/skills'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
 import Featuredproj from '../components/featuredproj'
@@ -24,6 +25,7 @@ export default function Home() {
 
       <div className='primarycontainer'>
         <Aboutme/> 
+        <Skillcontainer/>
         <Featuredproj/>
         <Projects/>
         <Contact/> 

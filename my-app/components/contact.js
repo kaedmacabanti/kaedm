@@ -10,9 +10,6 @@ const ContactForm = () => {
             <input type="text" name="name" placeholder='Message'className='message'/>
             <input type="submit" value="Submit" className='sbtn'/>
         </form> 
-          
-         
- 
       </form>
     )
   }
@@ -22,7 +19,7 @@ const ContactForm = () => {
 const Contact = () => {
   return (
     <div className='contactcontainer sectioncontainer'>
-        <h1 className='contacttxt'>Contact me</h1>
+        <h1 className=' '>Contact me</h1>
         <hr className='contacthr'/>
         <h2>Have a question or message?</h2>
         <ContactForm/>

@@ -30,7 +30,7 @@ const Featuredproj = () => {
 
   return (
     <section className='sectioncontainer'>
-        <h1 className='featuredtxt'>Featured</h1>
+        <h1 className=' '>Featured</h1>
         <hr className='featuredhr'/>
         <Fproject projecType={featuredproject1.type} prjectName={featuredproject1.name} projectDescription={featuredproject1.description} tech1={featuredproject1.tech1} tech2={featuredproject1.tech2} tech3={featuredproject1.tech3} tech4={featuredproject1.tech4}/>
         <Fproject projecType={featuredproject2.type} prjectName={featuredproject2.name} projectDescription={featuredproject2.description} tech1={featuredproject2.tech1} tech2={featuredproject2.tech2} tech3={featuredproject2.tech3} tech4={featuredproject2.tech4}/>
