@@ -14,8 +14,8 @@ a , .contacts>li, div{
   font-family: 'Poppins', sans-serif;
 }
 
-h1{ 
-  font-size: 42px;
+h1{  
+  font-size: 35px;
   color: #34abf0; 
 }
 h2{
@@ -55,7 +55,7 @@ h4, b{
 .navul{
   display: flex;
   align-items: center;
-  height: 80px;
+  height: 75px;
 } 
 
 
@@ -64,7 +64,7 @@ h4, b{
 }
 
 .navbar ul li a{
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .navlogo{
@@ -91,7 +91,7 @@ body{
  
 .primarycontainer{ 
   padding-left: 15%;
-  padding-right: 15%;
+  padding-right: 15%; 
 }
 
 
@@ -110,7 +110,7 @@ body{
   align-items: center; 
 }
 
-.sectioncontainer{
+.sectioncontpaddingY{
   padding: 6.25rem 0 6.25rem 0;
 }
 
@@ -182,6 +182,10 @@ body{
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+
+.skill span{
+  padding: 1rem;
 }
 
 /*=============================== FEATURED =============================== */
@@ -259,16 +263,11 @@ body{
   width: 100%;  
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
-.contactformcontainer{
-  height: 20rem;
-  margin: 0% 10% 0% 10%; 
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-}
+ 
 
 .inputboxcontainer{
   display: flex;
@@ -276,7 +275,7 @@ body{
   align-items: center;
 }
 
-.name, .email{
+.name, .email, .message, .sbtn{
   margin-top: .2rem;
   width: 34.6rem;
   height: 2rem;
@@ -284,19 +283,11 @@ body{
   padding: 5px 10px 5px 10px;
 }
 .message{
-  
-  margin-top: .2rem;
-  width: 34.6rem;
   height: 10rem;
-  border-radius: 5px;
-  padding: 5px 10px 5px 10px;
 }
+
 .sbtn{
-  margin-top: .2rem;
   width: 36rem;
-  height: 2.5rem;
-  padding: 5px 10px 5px 10px;
-  border-radius: 5px;
   background-color: #34abf0;
   font-size: medium;
   color: black; 
@@ -317,6 +308,13 @@ body{
   height: 0px;
   width: 0px;
 }
+
+
+/* ==================================================================== */
+
+ 
+
+
 
 /*=============================== FOOTER ===============================*/
 .footer{
@@ -342,11 +340,13 @@ body{
     text-align: center;
   }
 
-  .skillinfotab{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .skillInfo{ 
+    display: flex;
+    justify-content: center;
   }
+
   .skill{
+    padding: 0; margin: 0;
     display: flex; 
     flex-direction: column-reverse;
   } 
@@ -371,7 +371,7 @@ body{
     margin: 3% 0 0 0 ;
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    grid-gap: 20px;
+    grid-gap: 1rem;
   }
 
   .footer{
@@ -384,13 +384,20 @@ body{
 
 /*=============================== MOBILE ===============================*/
 @media screen and (max-width:770px){ 
- 
+  .primarycontainer{
+    padding-top: 5rem;
+  }
   
   .backgroundPhoto{
-    width: 23rem; 
-    height: 19rem;
+    width: 17rem; 
+    height: 14rem;
     background-size: cover;
   }
+  
+ 
+  
+/* ============================= */ 
+/* ============================== */
   .fprojimg{
     height: 10rem;
     background-color: #fff;
@@ -403,15 +410,33 @@ body{
     grid-gap: 20px;
   }
   .projectscontainers div{
-    height: 10rem;
+    height: 15rem;
   }
+  /* ========================================== */
+  .name, .email, .message, .sbtn{
+    margin-top: .2rem;
+    width: 20rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+  }
+  .sbtn{
+    width: 21.5rem;
+    height: 2.5rem;
+  }
+  /* ============================== */
 
   .footer{
     height: 8rem;
     background-color: #000000;
   }
 
+  
+
 
 }
+
+
+
 
  

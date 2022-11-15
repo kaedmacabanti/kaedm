@@ -28,7 +28,7 @@ const Skillcontainer = () => {
   }
   return (
     <div className=''>
-            <div class="skillInfo skillinfotab">
+            <div class=" skillInfo">
                     <Skill img={skill1.img} skillname={skill1.name} skilldesc={skill1.desc} tools={skill1.tools} toolname={skill1.toolname}/> 
                     <Skill img={skill2.img} skillname={skill2.name} skilldesc={skill2.desc} tools={skill2.tools} toolname={skill2.toolname}/>  
             </div>

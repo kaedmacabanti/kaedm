@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import profile from '../public/img/profile.png'
-
 import Navigation from '../components/navigation'
 import Aboutme from '../components/aboutme' 
 import Skillcontainer from '../components/skills'
@@ -29,6 +28,10 @@ export default function Home() {
         <Featuredproj/>
         <Projects/>
         <Contact/> 
+
+      
+       
+
       </div>
 
       <Footer/>
