@@ -21,7 +21,7 @@ const Introduction = () => {
 
 const Aboutme = () => {
   return (
-    <section className='sectioncontainer'>
+    <section className='sectioncontpaddingY'>
         <Introduction/>  
     </section>
   )

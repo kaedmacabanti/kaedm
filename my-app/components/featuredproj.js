@@ -29,7 +29,7 @@ const Featuredproj = () => {
   }
 
   return (
-    <section className='sectioncontainer'>
+    <section className='sectioncontpaddingY'>
         <h1 className=' '>Featured</h1>
         <hr className='featuredhr'/>
         <Fproject projecType={featuredproject1.type} prjectName={featuredproject1.name} projectDescription={featuredproject1.description} tech1={featuredproject1.tech1} tech2={featuredproject1.tech2} tech3={featuredproject1.tech3} tech4={featuredproject1.tech4}/>
