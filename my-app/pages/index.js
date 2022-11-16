@@ -5,9 +5,9 @@ import profile from '../public/img/profile.png'
 import Navigation from '../components/navigation'
 import Aboutme from '../components/aboutme' 
 import Skillcontainer from '../components/skills'
-import Projects from '../components/projects'
-import Contact from '../components/contact'
 import Featuredproj from '../components/featuredproj'
+import Projects from '../components/projects'
+import Contact from '../components/contact' 
 import Footer from '../components/footer'
 
 export default function Home() {
@@ -24,13 +24,10 @@ export default function Home() {
 
       <div className='primarycontainer'>
         <Aboutme/> 
-        <Skillcontainer/>
+        {/* <Skillcontainer/> */}
         <Featuredproj/>
         <Projects/>
-        <Contact/> 
-
-      
-       
+        {/* <Contact/>  */}
 
       </div>
 

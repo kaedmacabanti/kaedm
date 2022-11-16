@@ -272,12 +272,14 @@ body{
 .inputboxcontainer{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; 
+  width: 36rem;
 }
 
 .name, .email, .message, .sbtn{
   margin-top: .2rem;
-  width: 34.6rem;
+  /* width: 34.6rem; */
+  width: 95%;
   height: 2rem;
   border-radius: 5px;
   padding: 5px 10px 5px 10px;
@@ -287,7 +289,7 @@ body{
 }
 
 .sbtn{
-  width: 36rem;
+  width: 99%;
   background-color: #34abf0;
   font-size: medium;
   color: black; 
@@ -323,7 +325,7 @@ body{
 }
  
 /*=============================== TABLET ===============================*/
-@media screen and (max-width:990px){
+@media screen and (max-width:900px){
   .introcontainertab{ 
     display: flex;
     flex-direction: column;
@@ -374,20 +376,35 @@ body{
     grid-gap: 1rem;
   }
 
+
+  .inputboxcontainer{
+    width: 28rem;
+  }
+
   .footer{
     height: 10rem;
     background-color: #000000;
   }
 
+
 }
 
+/* xs, extra-small: 0px
+sm, small: 600px
+md, medium: 900px
+lg, large: 1200px
+xl, extra-large: 1536px */
 
 /*=============================== MOBILE ===============================*/
-@media screen and (max-width:770px){ 
+@media screen and (max-width: 600px){ 
   .primarycontainer{
-    padding-top: 5rem;
+    padding: 3.75rem 1.5rem 0px 1.5rem;
+  }
+  .sectioncontpaddingY{
+    padding: 3.75rem 0 3.75rem 0;
   }
   
+
   .backgroundPhoto{
     width: 17rem; 
     height: 14rem;
@@ -395,8 +412,6 @@ body{
   }
   
  
-  
-/* ============================= */ 
 /* ============================== */
   .fprojimg{
     height: 10rem;
@@ -404,13 +419,14 @@ body{
     border-radius: 9px;
   }
 
+/* ============================== */
   .projectscontainers{
     margin: 3% 0 0 0 ; 
     grid-template-columns:   1fr; 
     grid-gap: 20px;
   }
   .projectscontainers div{
-    height: 15rem;
+    height: 10rem;
   }
   /* ========================================== */
   .name, .email, .message, .sbtn{
@@ -425,7 +441,7 @@ body{
     height: 2.5rem;
   }
   /* ============================== */
-
+ 
   .footer{
     height: 8rem;
     background-color: #000000;
@@ -433,6 +449,21 @@ body{
 
   
 
+
+}
+
+@media screen and (max-width: 400px){
+  .name, .email, .message, .sbtn{
+    margin-top: .2rem;
+    width: 16rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+  }
+  .sbtn{
+    width: 17.5rem;
+    height: 2.5rem;
+  }
 
 }
 
