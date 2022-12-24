@@ -1,0 +1,251 @@
+/* 
+xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+xxl: 1400px 
+*/
+
+/*=============================== TABLET ===============================*/
+@media screen and (max-width:992px){
+    .introcontainertab{ 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .introtextcont{  
+      padding: 0 5% 0 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    } 
+    .introtexttab{
+      text-align: center;
+    }
+  
+    .skillInfo{ 
+      display: flex;
+      justify-content: center;
+    }
+  
+    .skill{
+      padding: 0; margin: 0;
+      display: flex; 
+      flex-direction: column-reverse;
+    } 
+    .skill span{
+      padding: 2rem;
+    }
+    .hexagon{
+      margin: 0;
+    }
+    
+    .fprojtab{
+      display: grid;
+      grid-template-columns: 100%;
+   
+    }
+  
+    .fprojdesc{
+      padding: 0;
+    }
+  
+    .projectscontainers{
+      margin: 3% 0 0 0 ;
+      display: grid;
+      grid-template-columns: 1fr 1fr; 
+      grid-gap: 1rem;
+    }
+  
+  
+    .inputboxcontainer{
+      width: 28rem;
+    }
+  
+    .footer{
+      height: 10rem;
+      background-color: #000000;
+    }
+  
+  
+  }
+  
+ 
+  
+  /*=============================== MOBILE ===============================*/
+  @media screen and (max-width: 576px){ 
+    .navbar{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .navul{
+      display: none;
+    }
+    
+    .menubar{
+      display:block;
+      font-size: 28px;
+      padding: 24px;
+  
+    }
+
+    .resnavigation{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background: #000;
+        position: fixed;
+        top: 75px;        
+    }
+  
+    .resnavigation ul li{
+      padding: 18px;
+    }
+  
+  
+  
+  
+    .primarycontainer{
+      padding: 3.75rem 2.5rem 0px 2.5rem;
+    } 
+    .sectioncontpaddingY{
+      padding: 3.75rem 0 3.75rem 0;
+    }
+    
+  
+    .backgroundPhoto{
+      width: 17rem; 
+      height: 14rem;
+      background-size: cover;
+    }
+  /* ============================== */
+    
+  .hexagon{
+    height: 4rem;
+    width: 4rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skillicon{
+    position:absolute;
+    z-index: 10;
+  }
+
+  .diva, .divb , .divc{ 
+    position: absolute;
+    height: 98px;
+    width: 50px;
+    background-color: #ffffff;
+  }
+
+  .diva{ 
+    height: 108px;
+    width: 58px;
+  }
+
+  .divb{ 
+    height: 105px;
+    width: 61px;
+    transform: rotate(-60deg);
+    }
+
+  .divc{ 
+    height: 105px;
+    width: 61px;
+    transform: rotate(60deg);
+  }
+
+  .skill span{
+    padding: 1rem .5rem 1rem .5rem;
+  }
+
+  /* ============================== */
+  .fprojimg{
+      height: 15rem;
+      background-color: #fff;
+      border-radius: 9px;
+  }
+  
+  /* ============================== */
+  .projectscontainers{
+      margin: 3% 0 0 0 ; 
+      grid-template-columns:   1fr; 
+      grid-gap: 20px;
+  }
+  .projectscontainers div{
+      height: 15rem;
+  }
+    /* ========================================== */
+  .name, .email, .message, .sbtn{
+      margin-top: .2rem;
+      width: 20rem;
+      height: 1.5rem;
+      border-radius: 5px;
+      padding: 5px 10px 5px 10px;
+  }
+  .sbtn{
+      width: 21.5rem;
+      height: 2.5rem;
+  }
+    /* ============================== */
+
+    .contactcontainer h2{
+      text-align: center;
+    }
+   
+    
+    .inputboxcontainer{
+      width: 100%;
+    }
+    .inputboxcontainer input{
+      width: 95%;
+    }
+
+    .inputboxcontainer .sbtn{
+      width: 100%;
+    }
+
+  /* ============================== */
+    .footer{
+      height: 8rem;
+      background-color: #000000;
+    }
+ 
+
+  
+  
+    
+  
+  
+  }
+  
+  @media screen and (max-width: 400px){
+    .primarycontainer{
+      padding: 3.75rem 1.5rem 0px 1.5rem;
+    } 
+
+    /* fix skills and contact, they are the cause of with not taking full on 400 max width */
+
+    .name, .email, .message, .sbtn{
+      margin-top: .2rem;
+      width: 16rem;
+      height: 1.5rem;
+      border-radius: 5px;
+      padding: 5px 10px 5px 10px;
+    }
+    .sbtn{
+      width: 17.5rem;
+      height: 2.5rem;
+    }
+  
+  }
+  
+  
+  
+  
+   

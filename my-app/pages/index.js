@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Image from 'next/image' 
 import profile from '../public/img/profile.png'
 import Navigation from '../components/navigation'
 import Aboutme from '../components/aboutme' 
@@ -24,10 +23,10 @@ export default function Home() {
 
       <div className='primarycontainer'>
         <Aboutme/> 
-        {/* <Skillcontainer/> */}
+        <Skillcontainer/>
         <Featuredproj/>
         <Projects/>
-        {/* <Contact/>  */}
+        <Contact/> 
 
       </div>
 

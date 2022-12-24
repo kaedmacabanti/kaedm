@@ -6,7 +6,9 @@ import profile from '../public/img/profile.png'
 const Introduction = () => {
     return(
     <section className='introcontainer introcontainertab'>
-        <Image src={profile} alt='/' className='backgroundPhoto' />  
+        <div className='profileimgcontainer'>
+          <Image src={profile} alt='/' className='backgroundPhoto' />  
+        </div> 
         <section className='introtextcont'>
             <h1 className=''>About me</h1>
             <hr className='aboutmehr  '/>

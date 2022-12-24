@@ -36,20 +36,21 @@ p{
  
 }
 
-
 h4, b{
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
 }
- 
 
 /*=============================== NAVIGATION ===============================*/
+
+ 
 .navbar{
   z-index: 99;
   position: fixed; top: 0px; width: 100%;
   display: flex;
   justify-content: center;
   background-color: #000000;  
+  height: 75px;
 }
 
 .navul{
@@ -73,12 +74,18 @@ h4, b{
   height: 40px;
 }
 
+.menubar{
+  display: none;
+}
  
 
 .navtext:hover{
   color: #34abf0;
 }
 
+.resnavigation{
+  display: none;
+}
  
 
 
@@ -94,11 +101,14 @@ body{
   padding-right: 15%; 
 }
 
+.profileimgcontainer{
+  height: 21rem;
+ 
+}
 
 .backgroundPhoto{
-  width: 25rem; 
-  height: 21rem;
-  background-size: cover;
+  height: 100%;
+  object-fit: contain;
 }
 
 .introtextcont{  
@@ -238,7 +248,7 @@ body{
 }
 
 .projectitemcontainer{
-  height: 16rem; 
+  height: 14rem; 
   background-color: #fff;
   border-radius: 8px;
 }
@@ -323,151 +333,4 @@ body{
   height: 10rem;
   background-color: #000000;
 }
- 
-/*=============================== TABLET ===============================*/
-@media screen and (max-width:900px){
-  .introcontainertab{ 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .introtextcont{  
-    padding: 0 5% 0 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } 
-  .introtexttab{
-    text-align: center;
-  }
-
-  .skillInfo{ 
-    display: flex;
-    justify-content: center;
-  }
-
-  .skill{
-    padding: 0; margin: 0;
-    display: flex; 
-    flex-direction: column-reverse;
-  } 
-  .skill span{
-    padding: 2rem;
-  }
-  .hexagon{
-    margin: 0;
-  }
   
-  .fprojtab{
-    display: grid;
-    grid-template-columns: 100%;
- 
-  }
-
-  .fprojdesc{
-    padding: 0;
-  }
-
-  .projectscontainers{
-    margin: 3% 0 0 0 ;
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-gap: 1rem;
-  }
-
-
-  .inputboxcontainer{
-    width: 28rem;
-  }
-
-  .footer{
-    height: 10rem;
-    background-color: #000000;
-  }
-
-
-}
-
-/* xs, extra-small: 0px
-sm, small: 600px
-md, medium: 900px
-lg, large: 1200px
-xl, extra-large: 1536px */
-
-/*=============================== MOBILE ===============================*/
-@media screen and (max-width: 600px){ 
-  .primarycontainer{
-    padding: 3.75rem 1.5rem 0px 1.5rem;
-  }
-  .sectioncontpaddingY{
-    padding: 3.75rem 0 3.75rem 0;
-  }
-  
-
-  .backgroundPhoto{
-    width: 17rem; 
-    height: 14rem;
-    background-size: cover;
-  }
-  
- 
-/* ============================== */
-  .fprojimg{
-    height: 10rem;
-    background-color: #fff;
-    border-radius: 9px;
-  }
-
-/* ============================== */
-  .projectscontainers{
-    margin: 3% 0 0 0 ; 
-    grid-template-columns:   1fr; 
-    grid-gap: 20px;
-  }
-  .projectscontainers div{
-    height: 10rem;
-  }
-  /* ========================================== */
-  .name, .email, .message, .sbtn{
-    margin-top: .2rem;
-    width: 20rem;
-    height: 1.5rem;
-    border-radius: 5px;
-    padding: 5px 10px 5px 10px;
-  }
-  .sbtn{
-    width: 21.5rem;
-    height: 2.5rem;
-  }
-  /* ============================== */
- 
-  .footer{
-    height: 8rem;
-    background-color: #000000;
-  }
-
-  
-
-
-}
-
-@media screen and (max-width: 400px){
-  .name, .email, .message, .sbtn{
-    margin-top: .2rem;
-    width: 16rem;
-    height: 1.5rem;
-    border-radius: 5px;
-    padding: 5px 10px 5px 10px;
-  }
-  .sbtn{
-    width: 17.5rem;
-    height: 2.5rem;
-  }
-
-}
-
-
-
-
- 
