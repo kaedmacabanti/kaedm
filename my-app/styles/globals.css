@@ -276,43 +276,53 @@ body{
   flex-direction: column;
 }
 
- 
-
 .inputboxcontainer{
   display: flex;
   flex-direction: column;
   align-items: center; 
   width: 36rem;
+  padding: 5px;
 }
 
-.name, .email, .message, .sbtn{
-  margin-top: .2rem;
-  /* width: 34.6rem; */
-  width: 95%;
-  height: 2rem;
-  border-radius: 5px;
-  padding: 5px 10px 5px 10px;
-}
-.message{
-  height: 10rem;
+.inputboxcontainer input{
+  width: 100%;
+  margin: .3rem;
+  padding: 0 0 0 .4rem;
+  height: 2.5rem;
+  outline: none;
+  border: none;
+
+  font-size: 16px;
 }
 
-.sbtn{
-  width: 99%;
+
+.inputboxcontainer textarea{
+  margin: .3rem;
+  width: 100%;
+  padding: 0 0 0 .4rem;
+  height: 12rem;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+
+.inputboxcontainer button{
+  padding: 0 0 0 .4rem;
+  margin: .3rem;
+  width: 101%;
+  height: 2.5rem;
+  outline: none;
+  border: none;
   background-color: #34abf0;
-  font-size: medium;
-  color: black; 
-  
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
 }
+ 
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: black;
-  font-size: medium;
-  margin-left: 5rem;
-  position: absolute;
-  top: 12px;
-  left: -60px;
-   
+  color: rgb(88, 80, 80);
+  font-size: 16px;
 }
 
 .none{
@@ -320,8 +330,6 @@ body{
   width: 0px;
 }
 
-
-/* ==================================================================== */
 
  
 
@@ -331,5 +339,14 @@ body{
 .footer{
   height: 10rem;
   background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
   
+.footer div{
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  
+}

@@ -7,6 +7,18 @@ xl: 1200px,
 xxl: 1400px 
 */
 
+@media screen and (max-width:1400px){
+  .projectscontainers{
+    margin: 3% 0 0 0 ;
+    display: grid;
+    grid-template-columns:  1fr 1fr; 
+    grid-gap: 1rem;
+  }
+
+
+}
+
+
 /*=============================== TABLET ===============================*/
 @media screen and (max-width:992px){
     .introcontainertab{ 
@@ -47,7 +59,11 @@ xxl: 1400px
       grid-template-columns: 100%;
    
     }
+    .projectitemcontainer{
+      height: 20rem; 
   
+    }
+
     .fprojdesc{
       padding: 0;
     }
@@ -55,13 +71,16 @@ xxl: 1400px
     .projectscontainers{
       margin: 3% 0 0 0 ;
       display: grid;
-      grid-template-columns: 1fr 1fr; 
+      grid-template-columns:  1fr; 
       grid-gap: 1rem;
     }
-  
-  
+
     .inputboxcontainer{
-      width: 28rem;
+      width: 30rem;
+    }
+
+    .inputboxcontainer textarea{
+      height: 7rem;
     }
   
     .footer{
@@ -182,35 +201,21 @@ xxl: 1400px
       height: 15rem;
   }
     /* ========================================== */
-  .name, .email, .message, .sbtn{
-      margin-top: .2rem;
+    .inputboxcontainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
       width: 20rem;
-      height: 1.5rem;
-      border-radius: 5px;
-      padding: 5px 10px 5px 10px;
-  }
-  .sbtn{
-      width: 21.5rem;
-      height: 2.5rem;
-  }
+      padding: 5px;
+    }
+    
+  
     /* ============================== */
 
     .contactcontainer h2{
       text-align: center;
     }
-   
-    
-    .inputboxcontainer{
-      width: 100%;
-    }
-    .inputboxcontainer input{
-      width: 95%;
-    }
-
-    .inputboxcontainer .sbtn{
-      width: 100%;
-    }
-
+  
   /* ============================== */
     .footer{
       height: 8rem;
@@ -223,24 +228,19 @@ xxl: 1400px
     .primarycontainer{
       padding: 3.75rem 1.5rem 0px 1.5rem;
     } 
-
-    /* fix skills and contact, they are the cause of with not taking full on 400 max width */
-
-    .name, .email, .message, .sbtn{
-      margin-top: .2rem;
+ 
+    .inputboxcontainer{
       width: 16rem;
-      height: 1.5rem;
-      border-radius: 5px;
-      padding: 5px 10px 5px 10px;
     }
-    .sbtn{
-      width: 17.5rem;
-      height: 2.5rem;
+    
+    .inputboxcontainer textarea{
+      height: 7rem;
     }
+    
   
   }
   
   
-  
-  
-   
+  /* =========================== */
+
+ 
