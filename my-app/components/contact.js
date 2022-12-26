@@ -3,13 +3,12 @@ import React from 'react'
 
 const ContactForm = () => {
     return ( 
-      <form className='inputboxcontainer'>
-          <input type="text" name="name" placeholder='Name' className='name'/>
-          <input type="email" name="name" placeholder='Your email' className='email'/>
-          <input type="text" name="name" placeholder='Message'className='message'/>
-          <input type="submit" value="Submit" className='sbtn'/>
+      <form className='inputboxcontainer'> 
+          <input type="text" name="" id="" placeholder='Name'/>
+          <input type="text" name="" id="" placeholder='E-mail'/>
+          <textarea name="" id="" cols="30"   placeholder='Message'></textarea>
+          <button type="button">Send Message</button> 
       </form> 
-   
     )
   }
   
