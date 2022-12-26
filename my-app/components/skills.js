@@ -9,12 +9,12 @@ const Skill = (props) => {
     <div className='skill'>                 
       <span>  <h3>{props.skillname} </h3> {props.skilldesc} </span>
       <span>  <h3>{props.tools} </h3> {props.toolname} </span>
-      <span className='hexagon'>
+      <div className='hexagon'>
         <div className='diva'></div>
         <div className='divb'></div>
         <div className='divc'></div>
         <Image src={props.img} alt='/' className='skillicon' /> 
-      </span>   
+      </div>   
   </div>
   )
 }

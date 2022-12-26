@@ -7,35 +7,27 @@
  
 
 /* TextStyle */
-
- 
-a , .contacts>li, div{
+a, .contacts>li, div{
   color:#838587; 
   font-family: 'Poppins', sans-serif;
 }
-
 h1{  
-  font-size: 35px;
+  font-size: 42px;
   color: #34abf0; 
 }
 h2{
   color: white;
   padding: 1rem 0 1rem 0;
 }
-
 h3{
+  font-size: 20px;
   color: #34abf0;
   font-family: 'Oswald', sans-serif;
-   
 }
- 
-
 p{
   color:#838587; 
   padding: 1rem 0 1rem 0;
- 
 }
-
 h4, b{
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
@@ -145,6 +137,7 @@ body{
   padding: 20px;
   text-align: center;
 }
+ 
  
 .hexagon{
   margin-left: 30%;

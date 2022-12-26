@@ -7,6 +7,17 @@ xl: 1200px,
 xxl: 1400px 
 */
 
+
+/* 
+42px
+36px
+30px
+24px
+18px
+16px
+14px
+*/
+
 @media screen and (max-width:1400px){
   .projectscontainers{
     margin: 3% 0 0 0 ;
@@ -14,13 +25,16 @@ xxl: 1400px
     grid-template-columns:  1fr 1fr; 
     grid-gap: 1rem;
   }
-
-
+  .skill span{
+    padding: 2rem;
+    height: 3rem;
+  }
 }
 
 
 /*=============================== TABLET ===============================*/
 @media screen and (max-width:992px){
+ 
     .introcontainertab{ 
       display: flex;
       flex-direction: column;
@@ -41,15 +55,21 @@ xxl: 1400px
       display: flex;
       justify-content: center;
     }
-  
     .skill{
       padding: 0; margin: 0;
       display: flex; 
       flex-direction: column-reverse;
     } 
-    .skill span{
-      padding: 2rem;
+    .skill div{
+      margin-bottom: .1rem;
     }
+    .skill span{
+      padding: 1rem .5rem 1rem .5rem;
+      height: 6.5rem;
+      margin-top: .5rem;
+      /* background-color: palegoldenrod; */
+    }
+
     .hexagon{
       margin: 0;
     }
@@ -95,6 +115,7 @@ xxl: 1400px
   
   /*=============================== MOBILE ===============================*/
   @media screen and (max-width: 576px){ 
+   
     .navbar{
       display: flex;
       justify-content: flex-start;
@@ -125,8 +146,9 @@ xxl: 1400px
     .resnavigation ul li{
       padding: 18px;
     }
+
     .primarycontainer{
-      padding: 3.75rem 2.5rem 0px 2.5rem;
+      padding: 0rem 2.5rem 0px 2.5rem;
     } 
     .sectioncontpaddingY{
       padding: 3.75rem 0 3.75rem 0;
@@ -180,9 +202,28 @@ xxl: 1400px
     transform: rotate(60deg);
   }
 
-  .skill span{
-    padding: 1rem .5rem 1rem .5rem;
+  .skill div{
+    margin-bottom: 1rem;
   }
+  h1{
+    font-size: 38px;
+  }
+
+  h2{
+    font-size: 22px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+  .skill span{
+    margin-top: .5rem;
+    padding: 1rem .5rem 1rem .5rem;
+    /* background-color: rgb(238, 203, 170); */
+    height: 6.5rem;
+    font-size: 14px;
+  }
+
 
   /* ============================== */
   .fprojimg{
@@ -226,7 +267,7 @@ xxl: 1400px
   
   @media screen and (max-width: 400px){
     .primarycontainer{
-      padding: 3.75rem 1.5rem 0px 1.5rem;
+      padding: 0rem 2.5rem 0px 2.5rem;
     } 
  
     .inputboxcontainer{
