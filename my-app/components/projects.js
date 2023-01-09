@@ -19,7 +19,7 @@ const ProjectItem1 = () => {
            
         <div className="caption">
           <div className='captiontext'>
-            <p>NetflixClone</p>
+            <h2>NetflixClone</h2>
             <p> React | Next | Tailwind | TMDB</p>
           </div>
         </div>  
