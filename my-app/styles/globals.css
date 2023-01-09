@@ -200,8 +200,6 @@ body{
   background-color: white;
 }
 
- 
-
 .fproject{
   display: grid;
   grid-template-columns: 55% 45% ;
@@ -212,6 +210,11 @@ body{
   height: 20rem;
   background-color: #fff;
   /* border-radius: 9px; */
+}
+
+.fprojimgcont{
+  height: 20rem;
+  position: relative;
 }
 
 .fprojdesc{ 
@@ -326,10 +329,6 @@ body{
   height: 0px;
   width: 0px;
 }
-
-
- 
-
 
 
 /*=============================== FOOTER ===============================*/
