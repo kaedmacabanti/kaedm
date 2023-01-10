@@ -8,9 +8,7 @@ const Fproject = (props) => {
     <div className='fproject fprojtab'>
 
         <div className='fprojimg'>
-          <div className='fprojimgcont'>
-            <Image src={props.projectImage} layout='fill'></Image>
-          </div>
+          <Image src={props.projectImage} layout='fill'></Image>
          </div>
     
       <div className='fprojdesc'>
