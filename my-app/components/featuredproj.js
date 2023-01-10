@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import NetflixImage from '../assets/NetflixCloneImage.png'
+import NetflixImage from '../assets/NetflixClone.png'
 import FunkoImage from '../assets/FunkoClone.png'
  
 const Fproject = (props) => {
