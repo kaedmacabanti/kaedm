@@ -354,24 +354,15 @@ body{
   position: relative;
 }
 
-.netflixImg{
+.projectimg{
   z-index: 10; 
-  background-image: url("../assets/NetflixCloneImage.png");
-  background-repeat: no-repeat;
-  background-size: cover;
- 
-  background-color: #838587;
+  position: relative;
   width: 100%;
   height: 14rem;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
 }
 
-.netflixImg:hover{
-  opacity: 0;
+.projectimg:hover{
+  height: 0rem;
 }
 
 .caption{
@@ -398,3 +389,20 @@ body{
   line-height: 0px;
 }
  
+
+/* 
+.netflixImg{
+  z-index: 10; 
+  background-image: url("../assets/NetflixCloneImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  background-color: #838587;
+  width: 100%;
+  height: 14rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+} */
