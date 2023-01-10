@@ -19,267 +19,256 @@ xxl: 1400px
 */
 
 @media screen and (max-width:1400px){
-  .projectscontainers{
-    margin: 3% 0 0 0 ;
-    display: grid;
-    grid-template-columns:  1fr 1fr; 
-    grid-gap: 1rem;
-  }
-  .skill span{
-    padding: 2rem;
-    height: 3rem;
-  }
+.projectscontainers{
+  margin: 3% 0 0 0 ;
+  display: grid;
+  grid-template-columns:  1fr 1fr; 
+  grid-gap: 1rem;
 }
+.skill span{
+  padding: 2rem;
+  height: 3rem;
 
+}
+}
 
 /*=============================== TABLET ===============================*/
 @media screen and (max-width:992px){
  
-    .introcontainertab{ 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+.introcontainertab{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   
-    .introtextcont{  
-      padding: 0 5% 0 5%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    } 
-    .introtexttab{
-      text-align: center;
-    }
+.introtextcont{  
+  padding: 0 5% 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+.introtexttab{
+  text-align: center;
+}
   
-    .skillInfo{ 
-      display: flex;
-      justify-content: center;
-    }
-    .skill{
-      padding: 0; margin: 0;
-      display: flex; 
-      flex-direction: column-reverse;
-    } 
-    .skill div{
-      margin-bottom: .1rem;
-    }
-    .skill span{
-      padding: 1rem .5rem 1rem .5rem;
-      height: 6.5rem;
-      margin-top: .5rem;
-      /* background-color: palegoldenrod; */
-    }
+.skillInfo{ 
+  display: flex;
+  justify-content: center;
+}
+.skill{
+  padding: 0; margin: 0;
+  display: flex; 
+  flex-direction: column-reverse;
+} 
+.skill div{
+  margin-bottom: .1rem;
+}
+.skill span{
+  padding: 1rem .5rem 1rem .5rem;
+  height: 6.5rem;
+  margin-top: .5rem;
+}
 
-    .hexagon{
-      margin: 0;
-    }
-    
-    .fprojtab{
-      display: grid;
-      grid-template-columns: 100%;
-   
-    }
-    .projectitemcontainer{
-      height: 20rem; 
-  
-    }
+.hexagon{
+  margin: 0;
+}
 
-    .fprojdesc{
-      padding: 0;
-    }
-  
-    .projectscontainers{
-      margin: 3% 0 0 0 ;
-      display: grid;
-      grid-template-columns:  1fr; 
-      grid-gap: 1rem;
-    }
+.fprojtab{
+  display: grid;
+  grid-template-columns: 100%;
+}
 
-    .inputboxcontainer{
-      width: 30rem;
-    }
+.projectitemcontainer{
+  height: 340px;
+  width: 640px; 
+}
 
-    .inputboxcontainer textarea{
-      height: 7rem;
-    }
+.fprojdesc{
+  padding: 0;
+}
   
-    .footer{
-      height: 10rem;
-      background-color: #000000;
-    }
+.projectscontainers{
+  margin: 3% 0 0 0 ;
+  display: grid;
+  grid-template-columns:  1fr; 
+  grid-gap: 1rem;
+}
+
+.inputboxcontainer{
+  width: 30rem;
+}
+
+.inputboxcontainer textarea{
+  height: 7rem;
+}
   
-  
-  }
-  
- 
-  
+.footer{
+  height: 10rem;
+  background-color: #000000;
+}
+}
+
   /*=============================== MOBILE ===============================*/
-  @media screen and (max-width: 576px){ 
-   
-    .navbar{
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      height: 60px;
-    }
-    .navul{
-      display: none;
-    }
+@media screen and (max-width: 576px){ 
+.navbar{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60px;
+}
+.navul{
+  display: none;
+}
     
-    .menubar{
-      display:block;
-      font-size: 24px;
-      padding: 24px;
-  
-    }
+.menubar{
+  display:block;
+  font-size: 24px;
+  padding: 24px;
+}
 
-    .resnavigation{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        background: #000;
-        position: fixed;
-        top: 60px;    
-        z-index: 99;    
-    }
+.resnavigation{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #000;
+  position: fixed;
+  top: 60px;    
+  z-index: 99;    
+}
   
-    .resnavigation ul li{
-      padding: 18px;
-    }
+.resnavigation ul li{
+  padding: 18px;
+}
 
-    .primarycontainer{
-      padding: 0rem 2.5rem 0px 2.5rem;
-    } 
-    .sectioncontpaddingY{
-      padding: 3.75rem 0 3.75rem 0;
-    }
-    
-    .profileimgcontainer{
-      height: 14rem;
-      padding: 0 0 2rem 0;
-    }
-    .backgroundPhoto{
-      width: 100%;
-      object-fit: contain;
-    }
+.primarycontainer{
+  padding: 0rem 2.5rem 0px 2.5rem;
+} 
+.sectioncontpaddingY{
+  padding: 3.75rem 0 3.75rem 0;
+}
+.profileimgcontainer{
+  height: 14rem;
+  padding: 0 0 2rem 0;
+}
+.backgroundPhoto{
+  width: 100%;
+  object-fit: contain;
+}
  
-  /* ============================== */
+/* ============================== */
     
-  .hexagon{
-    height: 4rem;
-    width: 4rem; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.hexagon{
+  height: 4rem;
+  width: 4rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .skillicon{
-    position:absolute;
-    z-index: 10;
-  }
+.skillicon{
+  position:absolute;
+  z-index: 10;
+}
 
-  .diva, .divb , .divc{ 
-    position: absolute;
-    height: 98px;
-    width: 50px;
-    background-color: #ffffff;
-  }
+.diva, .divb , .divc{ 
+  position: absolute;
+  height: 98px;
+  width: 50px;
+  background-color: #ffffff;
+}
 
-  .diva{ 
-    height: 108px;
-    width: 58px;
-  }
+.diva{ 
+  height: 108px;
+  width: 58px;
+}
 
-  .divb{ 
-    height: 105px;
-    width: 61px;
-    transform: rotate(-60deg);
-    }
+.divb{ 
+  height: 105px;
+  width: 61px;
+  transform: rotate(-60deg);
+}
 
-  .divc{ 
-    height: 105px;
-    width: 61px;
-    transform: rotate(60deg);
-  }
+.divc{ 
+  height: 105px;
+  width: 61px;
+  transform: rotate(60deg);
+}
 
-  .skill div{
-    margin-bottom: 1rem;
-  }
-  h1{
-    font-size: 38px;
-  }
+.skill div{
+  margin-bottom: 1rem;
+}
 
-  h2{
-    font-size: 22px;
-  }
+h1{
+  font-size: 38px;
+}
 
-  h3{
-    font-size: 18px;
-  }
-  .skill span{
-    margin-top: .5rem;
-    padding: 1rem .5rem 1rem .5rem;
-    /* background-color: rgb(238, 203, 170); */
-    height: 6.5rem;
-    font-size: 14px;
-  }
+h2{
+  font-size: 22px;
+}
 
-
+h3{
+  font-size: 18px;
+}
+.skill span{
+  margin-top: .5rem;
+  padding: 1rem .5rem 1rem .5rem;
+  height: 6.5rem;
+  font-size: 14px;
+}
   /* ============================== */
-  .fprojimg{
-      height: 15rem;
-      background-color: #fff;
-      border-radius: 9px;
-  }
+.fprojimg{
+  height: 212px;  
+  width: 400px;
+  background-color: #fff;
+}
   
   /* ============================== */
-  .projectscontainers{
-      margin: 3% 0 0 0 ; 
-      grid-template-columns:   1fr; 
-      grid-gap: 20px;
-  }
-  .projectscontainers div{
-      height: 15rem;
-  }
+.projectscontainers{
+  margin: 3% 0 0 0 ; 
+  grid-template-columns:   1fr; 
+  grid-gap: 20px;
+}
+
+.projectitemcontainer{
+  position: relative;
+  height: 212px;  
+  width: 400px;
+}
     /* ========================================== */
-    .inputboxcontainer{
-      display: flex;
-      flex-direction: column;
-      align-items: center; 
-      width: 20rem;
-      padding: 5px;
-    }
-    
-  
-    /* ============================== */
-
-    .contactcontainer h2{
-      text-align: center;
-    }
-  
+.inputboxcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 20rem;
+  padding: 5px;
+}
   /* ============================== */
-    .footer{
-      height: 8rem;
-      background-color: #000000;
-    }
+.contactcontainer h2{
+  text-align: center;
+}
+/* ============================== */
+.footer{
+  height: 8rem;
+  background-color: #000000;
+}
  
-  }
+}
   
-  @media screen and (max-width: 400px){
-    .primarycontainer{
-      padding: 0rem 2.5rem 0px 2.5rem;
-    } 
+@media screen and (max-width: 400px){
+.primarycontainer{
+  padding: 0rem 2.5rem 0px 2.5rem;
+} 
  
-    .inputboxcontainer{
-      width: 16rem;
-    }
-    
-    .inputboxcontainer textarea{
-      height: 7rem;
-    }
-    
+.inputboxcontainer{
+ width: 16rem;
+}
   
-  }
+.inputboxcontainer textarea{
+  height: 7rem;
+}
+  
+  
+}
   
   
   /* =========================== */
