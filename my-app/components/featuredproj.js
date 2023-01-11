@@ -8,7 +8,7 @@ const Fproject = (props) => {
     <div className='fproject'>
 
       <div className='fprojimg'>
-        <Image src={props.projectImage} layout='fill'></Image>
+        <Image src={props.projectImage} layout='responsive' height={340} width={640}></Image>
       </div>
     
       <div className='fprojdesc'>

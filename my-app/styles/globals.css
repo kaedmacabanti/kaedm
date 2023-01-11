@@ -208,8 +208,8 @@ body{
  
 
 .fprojimg{
-  height: 340px;
-  width: 640px; 
+  /* height: 340px;
+  width: 640px;  */
   position: relative;
   display: block;
 }
@@ -238,8 +238,6 @@ body{
 
 .projectitemcontainer{
   position: relative;
-  height: 212px;  
-  width: 400px;
 }
 
 .projectscontainers{

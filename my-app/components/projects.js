@@ -12,7 +12,7 @@ const ProjectItem = (props) => {
       <div className='projectitemcontainer'>
 
           <div className='projectimg'>
-            <Image className='pimg' src={props.projectImg} layout="fill"></Image>
+            <Image className='pimg' src={props.projectImg} layout="responsive" height={212} width={400}></Image>
           </div>
 
           <div className="caption">
