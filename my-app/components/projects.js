@@ -47,10 +47,10 @@ const Projects = () => {
         <ProjectItem projectName={project1.name} projectImg={project1.image} projectTech={project1.tech} projectLink={project1.link} /> 
         <ProjectItem projectName={project2.name} projectImg={project2.image} projectTech={project2.tech} projectLink={project2.link} /> 
  
-        <ProjectItem projectName={projectNull.name} projectImg={projectNull.image} projectTech={projectNull.tech} projectLink={projectNull.link}/> 
-        <ProjectItem projectName={projectNull.name} projectImg={projectNull.image} projectTech={projectNull.tech} projectLink={projectNull.link}/> 
-        <ProjectItem projectName={projectNull.name} projectImg={projectNull.image} projectTech={projectNull.tech} projectLink={projectNull.link}/> 
-        <ProjectItem projectName={projectNull.name} projectImg={projectNull.image} projectTech={projectNull.tech} projectLink={projectNull.link}/> 
+        <ProjectItem projectName={projectNull.name} projectImg={projectNull.image} projectTech={projectNull.tech} /> 
+        <ProjectItem projectName={projectNull.name} projectImg={projectNull.image} projectTech={projectNull.tech} /> 
+        <ProjectItem projectName={projectNull.name} projectImg={projectNull.image} projectTech={projectNull.tech} /> 
+        <ProjectItem projectName={projectNull.name} projectImg={projectNull.image} projectTech={projectNull.tech} /> 
       
      
         </div>
