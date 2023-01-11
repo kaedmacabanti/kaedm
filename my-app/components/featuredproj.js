@@ -5,11 +5,11 @@ import FunkoImage from '../assets/FunkoClone.png'
  
 const Fproject = (props) => {
   return (
-    <div className='fproject fprojtab'>
+    <div className='fproject'>
 
-        <div className='fprojimg'>
-          <Image src={props.projectImage} layout='fill'></Image>
-         </div>
+      <div className='fprojimg'>
+        <Image src={props.projectImage} layout='fill'></Image>
+      </div>
     
       <div className='fprojdesc'>
         <h2>{props.projecType}</h2>
